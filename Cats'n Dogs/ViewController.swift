@@ -61,6 +61,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         guard let image = info[.editedImage] as? UIImage else {
             print("An error occured: no image found")
             return
+            
         }
 
         // print out the image size as a test
